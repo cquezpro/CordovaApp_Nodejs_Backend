@@ -1,0 +1,13 @@
+{
+  "name": "shoutfit_pics",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "3.12.1",
+    "mongodb": "",
+    "mysql": "~2.3.2"
+  }
+}

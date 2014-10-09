@@ -1,0 +1,12 @@
+{
+  "name": "shoutfit-server",
+  "version": "0.0.1",
+  "description": "Handling users/friends/photos for Shoutfit.",
+  "dependencies": {
+    "socket.io": "~1.0.6",
+    "mysql": "~2.3.2",
+    "nodemailer": "~0.7.0",
+    "express": "~4.4.4",
+    "async": "~0.9.0"
+  }
+}

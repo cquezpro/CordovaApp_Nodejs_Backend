@@ -1,0 +1,176 @@
+@font-face {
+    font-family: TektonPro;
+    src: url(../fonts/TektonPro.otf);
+}
+* {
+    touch-callout: none;
+    -moz-touch-callout: -moz-none;
+    -khtml-touch-callout: none;
+    -webkit-touch-callout: none;
+}
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #cf7196;
+    width: 100%;
+    height: 100%;
+    font-family: TektonPro;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#header {
+    background-color: #2a7b87;
+    width: 100%;
+    height: 8%;
+    top: 0;
+    z-index: 1;
+}
+#logout {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/logout.png);
+    width: 15%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    margin-left: 85%;
+}
+#label {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/label.png);
+    width: 31.2%;
+    height: 20.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#friends {
+    top: 0;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 180%;
+    width: 70%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    text-align: center;
+}
+#phonebook {
+    top: 0;
+    color: white;
+    margin-top: 20%;
+    position: fixed;
+    width: 80%;
+    margin-left: 15%;
+    font-size: 120%;
+    text-align: right;
+    font-style: italic;
+}
+#separator {
+    position: absolute;
+    margin-top: -6%;
+    margin-left: 18%;
+    width: 50%;
+    height: 5px;
+    background: #ffd6e8;
+    border-radius: 15px;
+}
+#profiles {
+    background: #df96b4;
+    top: 0;
+    left: 0;
+    width: 90%;
+    margin-top: 40%;
+    padding-top: 5%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.profileTemplate {
+    width: 20%;
+    margin: 5%;
+    height: auto;
+    float: left;
+}
+.profileImage {
+    width: 100%;
+}
+.profileName {
+    padding-top: 10%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding-left: 1.5%;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+}
+#name {
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    height: 5%;
+    font-size: 150%;
+    font-style: italic;
+    text-align: center;
+}
+#addFriends {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/addFriend.png);
+    width: 40%;
+    height: 7%;
+    margin-left: 30%;
+    z-index: 10;
+}
+#addfriends1 {
+    color: white;
+    font-size: 100%;
+    width: 80%;
+    margin-left: 10%;
+    font-style: italic;
+    height: 5%;
+    bottom: 0;
+}
+/* iPhone 5 */
+
+@media only screen and (device-aspect-ratio: 40/71) {
+    #profiles {
+        height: 52%;
+    }
+}
+/* iPhone 2G, 3G, 4, 4S */
+
+@media only screen and (device-aspect-ratio: 2/3) {
+    #profiles {
+        height: 45%;
+    }
+}
+@media only screen and (max-width: 321px) {
+    #profiles {
+        height: 50%;
+    }
+    #phonebook {
+        margin-top: 15%;
+    }
+    #separator {
+        display: none;
+    }
+}

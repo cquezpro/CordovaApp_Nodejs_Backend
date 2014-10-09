@@ -1,0 +1,94 @@
+@font-face {
+    font-family: TektonPro;
+    src: url(../fonts/TektonPro.otf);
+}
+* {
+    touch-callout: none;
+    -moz-touch-callout: -moz-none;
+    -khtml-touch-callout: none;
+    -webkit-touch-callout: none;
+}
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../images/bckShare.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    width: 100%;
+    height: 100%;
+    font-family: TektonPro;
+    margin: 0;
+    overflow: hidden;
+}
+#header {
+    background-color: #2a7b87;
+    width: 100%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    color: white;
+    font-size: 120%;
+}
+#logout {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/logout.png);
+    width: 15%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    margin-left: 85%;
+}
+#sharetitle {
+    top: 0;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 180%;
+    width: 70%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    text-align: center;
+}
+#label {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/label.png);
+    width: 31.2%;
+    height: 20.5%;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#shareButtonsDiv {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+#sharepublic,
+#sharefriends {
+    width: 50%;
+    margin-left: 25%;
+}
+#whowith {
+    width: 100%;
+    color: white;
+    font-family: TektonPro;
+    font-size: 130%;
+    text-align: center;
+}
+#whowith {
+    margin-top: 40%;
+}

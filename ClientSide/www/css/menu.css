@@ -1,0 +1,87 @@
+@font-face {
+    font-family: TektonPro;
+    src: url(../fonts/TektonPro.otf);
+}
+* {
+    touch-callout: none;
+    -moz-touch-callout: -moz-none;
+    -khtml-touch-callout: none;
+    -webkit-touch-callout: none;
+}
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    background-image: url(../images/bckRegister.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: TektonPro;
+    margin: 0;
+    overflow: hidden;
+}
+#header {
+    background-color: #2a7b87;
+    width: 100%;
+    height: 8%;
+    top: 0;
+    z-index: 1;
+}
+#label {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/label.png);
+    width: 31.2%;
+    height: 20.5%;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+}
+#menuButtons {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20%;
+}
+#takeApic,
+#vote,
+#friends {
+    width: 100%;
+}
+#vote {
+    margin-top: 2%;
+}
+#menu {
+    height: 5%;
+    top: 0;
+    color: white;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 180%;
+}
+#coinsDiv {
+    position: fixed;
+    text-align: right;
+    right: 0;
+    top: 0;
+}
+#noCoins {
+    color: white;
+    font-size: 200%;
+    vertical-align: text-bottom;
+    margin-left: 5%;
+}
+#coin {
+    width: 10%;
+}

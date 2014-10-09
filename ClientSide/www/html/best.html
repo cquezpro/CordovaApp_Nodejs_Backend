@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Best</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1">
+    <link href="../css/jquery-ui.css" rel="stylesheet">
+    <link href="../css/best.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <div id="besttitle">BEST OUTFIT</div>
+    </div>
+
+    <div id="progressCountdown"></div>
+    <div id="statusCountdown"></div>
+
+    <div id="socialButtons">
+        <img src="../images/fbbutton.png" id="fbButton" class="socButt" />
+        <img src="../images/twitterbutton.png" id="twitterButton" class="socButt" />
+    </div>
+
+    <center>
+        <img id="bestPicture" />
+    </center>
+    <p id="totalVotes">This is your most voted outfit with a total of <span id="numVotes"></span> votes</p>
+    <img src='../images/finish.png' id='finishBest' />
+
+    <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../cordova.js"></script>
+    <script type="text/javascript" src="../js/jquery-ui.js"></script>
+    <script type="text/javascript" src="../js/SocialSharing.js"></script>
+    <script type="text/javascript" src="../js/socket.io.js"></script>
+    <script type="text/javascript" src="../js/best.js"></script>
+</body>
+
+</html>

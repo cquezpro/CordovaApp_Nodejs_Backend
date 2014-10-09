@@ -1,0 +1,99 @@
+@font-face {
+    font-family: TektonPro;
+    src: url(../fonts/TektonPro.otf);
+}
+* {
+    touch-callout: none;
+    -moz-touch-callout: -moz-none;
+    -khtml-touch-callout: none;
+    -webkit-touch-callout: none;
+}
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../images/bckTheme.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #cf7196;
+    width: 100%;
+    height: 100%;
+    font-family: TektonPro;
+    margin: 0;
+    overflow: hidden;
+}
+#header {
+    background-color: #2a7b87;
+    width: 100%;
+    height: 8%;
+    top: 0;
+    z-index: 1;
+}
+#searchInput {
+    font-family: TektonPro;
+    width: 80%;
+    height: 80%;
+    margin-left: 15%;
+    margin-top: 1.1%;
+    border: none;
+    border-radius: 10px;
+    background: #4ba0ad;
+    color: white;
+    padding-left: 3%;
+    outline: none;
+    z-index: 10;
+}
+#logout {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/logout.png);
+    width: 15%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+#searchButton {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/search.png);
+    width: 15%;
+    height: 7%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+#contactsPlace {
+    width: 100%;
+}
+.contactCard {
+    padding: 5%;
+    width: 85%;
+    height: auto;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1%;
+    margin-bottom: 5%;
+    background: #ededed;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px #414141;
+}
+.profileImage {
+    width: 100%;
+}
+.contactName {
+    color: #2a7b87;
+    margin-left: 5%;
+    font-size: 150%;
+}
+.contactNumber {
+    color: gray;
+    margin-left: 5%;
+}

@@ -1,0 +1,167 @@
+@font-face {
+    font-family: TektonPro;
+    src: url(../fonts/TektonPro.otf);
+}
+* {
+    touch-callout: none;
+    -moz-touch-callout: -moz-none;
+    -khtml-touch-callout: none;
+    -webkit-touch-callout: none;
+}
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../images/bckBest.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    width: 100%;
+    height: 100%;
+    font-family: TektonPro;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#header {
+    background-color: #2a7b87;
+    width: 100%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    top: 0;
+    position: fixed;
+}
+#logout {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/logout.png);
+    width: 15%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    margin-left: 85%;
+}
+#friends {
+    height: 5%;
+    top: 0;
+    color: white;
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 180%;
+    font-style: italic;
+}
+#phonebook {
+    top: 0;
+    color: white;
+    margin-top: 30%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: 19%;
+    margin-right: auto;
+    font-size: 150%;
+    font-style: italic;
+}
+#besttitle {
+    top: 0;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 180%;
+    width: 70%;
+    height: 38px;
+    min-height: 38px;
+    max-height: 38px;
+    text-align: center;
+}
+#outfit {
+    color: white;
+    width: 100%;
+    margin-top: 25%;
+    font-size: 115%;
+    text-align: center;
+}
+#totalpercents {
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 120%;
+    font-style: italic;
+    text-align: center;
+}
+#bestPicture {
+    max-height: 30%;
+    margin-top: 15%;
+}
+#progressCountdown {
+    width: 80%;
+    height: 10px;
+    background: rgba(207, 113, 150, 0);
+    border-radius: 50px;
+    border: 2px solid white;
+    margin-top: 20%;
+    margin-left: 10%;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    z-index: 5;
+}
+#progressCountdown > .ui-progressbar-value {
+    background: white;
+    border: 0;
+    border-radius: 50px;
+}
+#statusCountdown {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+}
+#mostVoted,
+#totalVotes {
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    visibility: hidden;
+}
+#finishBest {
+    width: 50%;
+    margin-left: 25%;
+    visibility: hidden;
+}
+#socialButtons {
+    visibility: hidden;
+    width: 90%;
+    margin-left: 5%;
+}
+.socButt {
+    width: 45%;
+    display: inline;
+    margin-top: 5%;
+}
+.socButt:nth-child(1) {
+    margin-left: 5%;
+}

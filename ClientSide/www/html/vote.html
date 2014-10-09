@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vote</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, initial-scale=1">
+    <link href="../css/vote.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <img src="../images/logout.png" id="logout" />
+        <center>
+            <span id="vote1">VOTE</span>
+        </center>
+    </div>
+    <div id="theme1">Theme: <span id="nameTheme"></span>
+    </div>
+    <br>
+    <div id="content">
+        <img src="../images/back.png" id="left" />
+        <img id="pic3" />
+        <img src="../images/forward.png" id="right" />
+    </div>
+    <div id="footer">
+        <img src="../images/mark.png" id="mark" />
+        <div id="coinsDiv">
+            <span id="noCoins"></span>
+            <img src="../images/coin.png" id="coin" />
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="../js/socket.io.js"></script>
+    <script type="text/javascript" src="../cordova.js"></script>
+    <script type="text/javascript" src="../js/vote.js"></script>
+</body>
+
+</html>
